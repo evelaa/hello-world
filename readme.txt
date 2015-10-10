@@ -1,3 +1,9 @@
+****cosas de github ****
+añadir colaborador : patchwork-->settings-->colaborators-->*name
+folk button
+pull request
+**********************************
+
 
 ****general comands ***********
 
@@ -20,7 +26,7 @@ git remote add upstream <url> crea un pull de cambios en el proyecto orginal del
 git branch <branchname>  <---- crea un nuevo branch
 git checkout <branchname>  <------ te permite moverte entre branches
 
-****check in process **********
+****check in process (own server forked) **********
 
 git status
 git add <filename>
@@ -29,7 +35,28 @@ git push origin <branchname>
 
 *************************
 
+****pull process*****
+git pull <remotename> <branchname> *remotename = url del fork 
+git fetch --dry-run
+
+************************************
+
+
+*****merge***********
+git checkout <principalbranch>
+git merge <branchenamethatwannamerge>
+git branch -d <branchname>  <---- deleting branch * no necesary
+
+****************************************
+
+*****pullfromupstream******
+git pull upstream gh-pages
+***********************************
+
 
 ******set user *******
 git config --global user.username/name/email <""> 
 **************************
+
+
+
